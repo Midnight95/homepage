@@ -1,0 +1,29 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Hypervisors:
+    - vmr:
+        icon: proxmox.png
+        description: Proxmox on router
+        href: https://192.168.1.12:8006
+        widget:
+          type: proxmox
+          url: https://192.168.1.12:8006
+          username: {{HOMEPAGE_VAR_VMR_USER}}
+          password: {{HOMEPAGE_VAR_VMR_TOKEN}}
+
+- Network:
+    - OPNsense:
+        href: https://192.168.1.1/
+        description: Gateaway to lucid cosmic ocean
+        widget:
+          type: opnsense
+          url: https://192.168.1.1
+          username: {{HOMEPAGE_VAR_GATE_USER}}
+          password: {{HOMEPAGE_VAR_GATE_PASSWORD}}
+
+- My Third Group:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎
