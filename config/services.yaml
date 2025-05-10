@@ -34,11 +34,11 @@
           password: {{HOMEPAGE_VAR_GATE_PASSWORD}}
 
     - Pi-hole:
-        href: http://dns.granovskydev.ru/admin
+        href: https://dns.granovskydev.ru/admin
         description: local dns server with adblocking
         widget:
           type: pihole
-          url: http://dns.granovskydev.ru
+          url: https://dns.granovskydev.ru
           version: 6
           key: {{HOMEPAGE_VAR_PIHOLE}}
 
