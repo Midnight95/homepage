@@ -33,16 +33,7 @@
           username: {{HOMEPAGE_VAR_GATE_USER}}
           password: {{HOMEPAGE_VAR_GATE_PASSWORD}}
 
-    - Pi-hole:
-        href: https://dns.granovskydev.ru/admin
-        description: local dns server with adblocking
-        widget:
-          type: pihole
-          url: https://dns.granovskydev.ru
-          version: 6
-          key: {{HOMEPAGE_VAR_PIHOLE}}
-
 - Other stuff:
     - 3D printer:
         href: http://printer.granovskydev.ru/
-        description: PRINT SMTH NOW!
+        description: PRINT SMTH NOW! (currently broken, fuck neptune)
